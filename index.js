@@ -3,7 +3,7 @@ const express = require("express");
 const https = require("https");
 const bodyParser = require("body-parser");
 const app = express();
-const apiKey = "c1640f392775737bdfc82ad81314ece3"
+const apiKey = ""
 
 app.use(bodyParser.urlencoded({extended: true}));
 
